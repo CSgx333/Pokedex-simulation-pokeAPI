@@ -5,7 +5,7 @@ Using React and Tailwind Framework to develop a Pokedex Simulation by pulling da
   <img src="src/assets/img/image Pokedex.jpeg" width="700" height="400">
 <p/>
 
-# Go to Web :
+# Go to Web 
 https://incandescent-gelato-f33e69.netlify.app/
 
 # Pokedex screen displayed on web
