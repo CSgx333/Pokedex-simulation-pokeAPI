@@ -65,7 +65,7 @@ function Pokedex() {
 
               <div className="py-5 flex items-center justify-center">
                 <div className="pb-[10px] relative bg-Pokedex overflow-hidden rounded-l-[10px] rounded-tr-[10px] rounded-br-[5px] border-b-[8px] lg:border-b-[12px] border-Pokedex2">
-                  <img src='/src/assets/img/pokedex1.png' className='py-auto px-auto lg:py-1 lg:px-2 w-[120px] h-[70px] lg:w-[180px] lg:h-[90px]' alt="pokedex1"/>
+                  <img src='src/assets/img/pokedex1.png' className='py-auto px-auto lg:py-1 lg:px-2 w-[120px] h-[70px] lg:w-[180px] lg:h-[90px]' alt="pokedex1"/>
                   <div className='pb-2'>
                     <div className="bg-Pokedex2 py-[2px] lg:py-1"></div>
                   </div>
@@ -84,10 +84,10 @@ function Pokedex() {
                       </div>
                       <div className="mt-7 flex justify-evenly">
                         <div className="w-[25px] h-[25px] lg:w-[30px] lg:h-[30px] bg-Slate rounded-full"/>
-                        <div className="bg-[url('/src/assets/img/screen.png')] flex justify-center items-center border border-Screen2 rounded-md w-[100px] h-[50px] lg:w-[150px] lg:h-[60px]">
+                        <div className="bg-[url('src/assets/img/screen.png')] flex justify-center items-center border border-Screen2 rounded-md w-[100px] h-[50px] lg:w-[150px] lg:h-[60px]">
                           <span className='text-white capitalize font-Turret text-sm lg:text-base font-medium'>{poke?.name}</span>
                         </div>
-                        <img src='/src/assets/img/button1.png' className="w-[50px] h-[50px] lg:w-[70px] lg:h-[70px]" lt="Button1"/>
+                        <img src='src/assets/img/button1.png' className="w-[50px] h-[50px] lg:w-[70px] lg:h-[70px]" lt="Button1"/>
                       </div>
                     </div>
                   </div>
@@ -112,12 +112,12 @@ function Pokedex() {
                   <div className="px-2 py-3">
                       <div className="border-2 border-Pokedex2 rounded-md">
                         <div className="px-4 pt-5 pb-2 lg:pb-5">
-                          <div className="flex justify-center items-center bg-[url('/src/assets/img/screen2.png')] text-white capitalize text-center font-Turret font-medium border border-black rounded-md w-auto h-[65px] lg:w-[300px] lg:h-[100px]">
+                          <div className="flex justify-center items-center bg-[url('src/assets/img/screen2.png')] text-white capitalize text-center font-Turret font-medium border border-black rounded-md w-auto h-[65px] lg:w-[300px] lg:h-[100px]">
                             {showScreen()}
                           </div>
                         </div>
                         <div className="px-4">
-                          <img src='/src/assets/img/screen3.png' className='w-auto h-auto w-[260px] h-[50px]' alt="Screen3"/>
+                          <img src='src/assets/img/screen3.png' className='w-auto h-auto w-[260px] h-[50px]' alt="Screen3"/>
                         </div>
                         <div className="flex justify-end space-x-3 px-4 py-2">
                           <div className="bg-Slate border border-Pokedex2 rounded-md px-3 py-[2.5px] lg:py-1 lg:px-4"/>
